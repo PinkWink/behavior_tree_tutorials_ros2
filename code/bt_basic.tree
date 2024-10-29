@@ -1,0 +1,7 @@
+->
+|    -> 
+|    |    !(check_battery_low)
+|    -> 
+|    |    (get_target)
+|    -> 
+|    |    [move_to_target]
