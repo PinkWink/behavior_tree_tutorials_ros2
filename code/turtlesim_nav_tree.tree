@@ -1,0 +1,19 @@
+?
+|    -> 
+|    |    [get errors to blackboard]
+|    |    (isDistanceErrorNegative)
+|    |    !(isDistanceInRange)
+|    |    [RotateToReverse 회전주행 반대방향에 대해]
+
+|    ?
+|    |    ->
+|    |    |    !(isAngleInRange)
+|    |    |    !(isDistanceInRange)
+|    |    |    [RotateToForward 회전 주행 정방향에 대해]
+
+|    |    ?
+|    |    |    -> 
+|    |    |    |    (isDistanceInRange)
+|    |    |    |    [RotateToTargetDirection 회전 주행 - 목표자세] 
+|    |    |    -> 
+|    |    |    |    [직진 주행 - 거리 각도 제어]
