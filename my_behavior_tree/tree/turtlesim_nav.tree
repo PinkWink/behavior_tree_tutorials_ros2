@@ -1,0 +1,13 @@
+?
+|    -> 
+|    |    (isAngleInRange)
+|    |    !(isDistanceInRange)
+|    |    [직진 주행 - 거리 각도 제어]
+|    -> 
+|    |    !(isAngleInRange)
+|    |    !(isDistanceInRange)
+|    |    [회전 주행 - 각도 제어]
+|    -> 
+|    |    (isAngleInRange)
+|    |    (isDistanceInRange)
+|    |    [회전 주행 - 목표자세 - 각도 제어] 

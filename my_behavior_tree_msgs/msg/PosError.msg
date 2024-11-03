@@ -1,0 +1,3 @@
+float32 linear_error
+float32 angular_error 
+float32 angular_error_to_target
