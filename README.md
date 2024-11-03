@@ -1,2 +1,0 @@
-# behavior_tree_tutorials_ros2
- behavior_tree_tutorials_ros2
