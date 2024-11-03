@@ -3,8 +3,6 @@ from py_trees.common import Status
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
 import py_trees
-import rclpy
-import math
 
 class ActionDummy(Behaviour):
     def __init__(self, name):
