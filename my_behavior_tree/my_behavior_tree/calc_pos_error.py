@@ -59,6 +59,7 @@ class CalcError(Node):
     
     def calc_angular_error_to_target(self, turtle_pose, goal_pose_turtle):
         error = goal_pose_turtle.theta - turtle_pose.theta
+        error = (error + math.pi) % (2*math.pi) - math.pi
 
         return error
 
